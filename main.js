@@ -1,8 +1,3 @@
-const canvas = document.querySelector('canvas');
-const webgl = canvas.getContext('webgl');
+import * as THREE from 'three';
 
-if (!webgl) {
-    throw new Error('WebGL not supported');
-}
-
-alert('WebGL supported');
+console.log(THREE);
