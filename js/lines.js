@@ -41,9 +41,6 @@ polygonalPoints.push(new THREE.Vector3(-10, 5, 0));
 polygonalPoints.push(new THREE.Vector3(0, 10, 0));
 
 
-
-
-
 const geometry = new THREE.BufferGeometry().setFromPoints(polygonalPoints);
 const line = new THREE.Line(geometry, material);
 
